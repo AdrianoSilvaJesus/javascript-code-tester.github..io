@@ -1,0 +1,1 @@
+function criaSpan(e){var n=document.createElement("span");return"linha"===e&&(n.onmouseover=function(){n.addClass("line-selected")},n.onmouseout=function(){n.removeClass("line-selected")}),n.className=e,n}
